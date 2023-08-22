@@ -1,0 +1,117 @@
+.bg-grey{
+    background-color: #777777;
+}
+.text-grey{
+    color: #777777;
+}
+.bg-black{
+    background-color: #1a1a1a;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.text-red{
+    color: #e31c25;
+}
+.border-grey{
+    border: #777777;
+}
+.b1{
+    background-color: #e31c25;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+.b2{
+    background-color: white;
+    color: #e31c25;
+}
+.b2:hover{
+    background-color: #e31c25;
+    color: white;
+}
+.c1{
+    background-color: #1a1a1a;
+}
+.c1:hover{
+    background-color: #e31c25;
+}
+#services img{
+    transition: 2s;
+}
+.d1{
+    overflow: hidden !important;
+    /* border: 1px solid red ; */
+    position: relative;
+
+}
+.top{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #e31c25;
+    padding: 20px 120px 20px 20px;
+    color: white;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.d1:hover .top{
+    opacity: 10;
+}
+#services img:hover{
+    transform:scale(1.1,1.1);
+}
+#pictures img{
+    transition: 2s;
+}
+.d1{
+    overflow: hidden !important;
+    /* border: 1px solid red ; */
+}
+#pictures img:hover{
+    transform:scale(1.1,1.1);
+}
+.b3{
+    background-color: black;
+    color:white;
+}
+.b3:hover{
+    background-color: #e31c25;
+}
+.bg-red{
+    background-color: #e31c25;
+}
+.fa-dumbbell,.fa-award,.fa-running,.fa-walking{
+    font-size: 50px;
+    color: #e31c25;
+}
+.fa-square{
+    font-size: 8px;
+}
+#services .fa-dumbbell{
+    color: white;
+    font-size: 20px;
+}
+#choice .fa-dumbbell,.fa-boxing-glove{
+    font-size: 50px;
+    color: white;
+}
+#choice,#video,#today{
+    background-color: #111111;
+}
+#choice1{
+    background-color: #111111;
+}
+@media only screen and (min-width:1326px){
+    #Home-1 h1{
+        font-size: 82px;
+    }
+    
+    .head{
+        font-size: 52px;
+    }
+}
